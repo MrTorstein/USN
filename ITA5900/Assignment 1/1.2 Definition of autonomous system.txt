@@ -1,0 +1,20 @@
+Other definitions:
+Couldn't find any
+1. Autofuel is a robotic refueling system - The automated link between car and energy
+2. Fuelmatics 500 is the fifth generation of truly automated refueling units
+3. The ATV was an uncrewed platform that operated with a high level of automation, such as its docking sequence
+
+My own:
+A human deployed refueling system, which, given a identifing tags for rockets to interact with, can operate with a high level of autonomy.
+
+
+To define an autonomous refueling system, for rockets traveling interplanetary, I have tried to look up three other definitions for automatic systems related to refueling and
+space stations. None of the "definitions" are actually any good definitions for automatic systems, as they aren't meant for it, but this was the best I could find.
+The first definition is for the Danish robot refueling station addon and the definition is "Autofuel is a robotic refueling system - The automated link between car and energy".
+The second is for an automatic refueling station created by Swedish company Fuelmatics. "Fuelmatics 500 is the fifth generation of truly automated refueling units". The finale
+definition is for the European Space Agency's Automated Transfer Vehicle. "The ATV was an uncrewed platform that operated with a high level of automation, such as its docking
+sequence". Now, none of these definitions are good for their systems, since none of them mention anything about what is automated and what is human controlled. For the most part
+these are all sales slogans, except the ESA ATV since it is merely a short description from a wiki. However, they do mention they are autonomous and some of their functions.
+Both fueling stations mention refueling, and the ATV mentions docking. For my system, automatic refueling space station, I have tried to use the nice parts of these three definitions
+while being clearer about its functions and challenges. Now my definition is "A human deployed refueling system, which, given identifying tags for rockets to interact with, can
+operate with a high level of autonomy". This definition points out the system was deployed by humans, given some info, and refuels rockets on its own.

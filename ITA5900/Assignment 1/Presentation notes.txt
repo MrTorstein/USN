@@ -1,0 +1,29 @@
+1. Problem
+- Starship needs to be fueld many times when going to Mars before it can leave
+- Filling liquid fuel automatically to a Starship rocket in orbit around the Earth.
+
+2. Context and Surroundings
+- Space is empty of air
+- Orbit has no gravitation, the fuel will be weightless
+- The fuel must be transportet between one rocket and another, either directly or indirectly.
+o The system must be able to dock to a rocket.
+o Fuel must be extracted from one tank and injected into another.
+o The system must be able to determine when a tank is empty and not.
+
+3. Alternative Designs
+- A permanent station in space with two docking spots, which navigates to a rocket and extracts fuel at one end and injects it into a temperary tank, before injecting it
+into another ship at the other dock.
+- A tube capable of docking to another ship fastened on fueling ship. Like male and female counterparts. The tube seeks out the other ship's tank and atatches itself to
+the docking hole, before transfering the fuel
+
+- Mechanical pump inside the tank either sucking the pushing fuel via pressure
+- A fanbased pump sucking or pushing fuel
+- Magnetic field set on the tank pushing the fuel out. (Only viable if ful is magnetic, not clear)
+
+- Optical vision for locating rocket and where to move to
+- IR vision
+- Radio vision
+
+4. The Solution
+To make the solution more robust in the future, a permanent station with two dockingstations was choosen. The station has a mechanical pump inside the tank,
+an optical sensor for finding the rockets and a small set of engins for propelling the station to a rocket.
