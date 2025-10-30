@@ -1,0 +1,113 @@
+1a)
+x_k+1 = ax_k + bu_k + ke_k (1)
+y_k = x_k + e_k
+
+x_k = y_k - e_k (2)
+Putter 2 inn i 1 med k-1 istedenfor k
+y_k - e_k = a (y_k-1 - e_k-1) + bu_k-1 + ke_k-1
+y_k = a y_k-1 - a e_k-1 + bu_k-1 + ke_k-1 + e_k
+
+y_k = phi^T theta + e_k altså at
+phi^T theta = a y_k-1 - a e_k-1 + bu_k-1 + ke_k-1
+phi^T theta = a y_k-1 + bu_k-1 + (k-a)e_k-1
+for at dette stemmer må k = a
+da blir
+theta = [a, b] og phi = [y_k-1, u_k-1]
+
+
+b)
+eps_k = y_k - y_k^bar or the difference between the true value and the prediction
+OLS estimate for theta is the derivative of V with regard to theta and minimise the function.
+
+dV/dtheta = d/dtheta 1/N sum( eps^T lam eps ) = 1/N sum( deps/dtheta d/deps (eps^T lam eps) )
+dV/dtheta = 1/N sum( -phi (2 lam eps) ) = -2/N sum( phi lam eps )
+dV/dtheta = sum( phi lam y_k - phi lam phi^T theta ) = 0
+theta^hat = sum( phi lam y_k) sum( phi lam phi)^-1
+
+Yes, this is Lam = E(e_k e_k^T)
+
+
+c)
+Y/X = YX^T(XX^T)^-1 X
+YX^+ = Y - YX^T(XX^T)^-1 X
+graph
+yes it is since these are projections of Y onto two lines normal to eachother.
+
+
+d)
+Y = OX + E
+multiply from right with X^T
+YX^T = OXX^T + EX^T
+cut E since it is random and can be assumed zero when multiplied with X^T
+YX^T = OXX^T
+O^hat = YX^T(XX^T)^-1
+
+Estimate Y^bar = O^hat X = YX^T(XX^T)^-1 X
+
+This estimate is the same as Y/X
+
+
+e)
+Y = XB + E
+multiply from left with X^T
+X^TY = X^TXB + EX^T
+cut E since it is random and can be assumed zero when multiplied with X^T
+X^T Y = X^TXB
+B_OLS = (XX^T)^-1 X^T Y
+
+
+2a)
+x_k+1 = Ax_k + Bu_k + v_k
+y_k = Dx_k + w_k
+
+x_k+1^bar = Ax_k^hat + Bu_k
+y_k^bar = Dx_k^bar
+x_k^hat = x_k^bar + K(y_k - y_k^bar) = x_k^bar + K(y_k - y_k^bar)
+
+
+b)
+x_k+1^bar = A x_k^bar + A K (y_k - y_k^bar) + Bu_k
+x_k+1^bar = A x_k^bar + Bu_k + K^~ eps_k
+eps_k = y_k - y_k^bar = y_k - Dx_k^bar
+y_k = Dx_k^bar + eps_k
+
+
+c)
+x_k+1^bar = A x_k^bar + Bu_k + K^~ (y_k - D x_k^bar)
+y_k^bar = D x_k^bar
+
+eps_k = y_k - y_k^bar
+
+Then
+A = [[0, 1], [theta_1, theta_2]]
+B = [theta_3, theta_4]
+K = [theta_5, theta_6]
+D = [0, 1]
+x_0 = [theta_7, theta_8]
+theta = [theta_1, theta_2, theta_3, theta_4, theta_5, theta_6, theta_7, theta_8]
+
+
+d)
+x_k+1 = f(x_k, u_k) + v
+y_k = g(x_k) + w
+rewrite for predictions
+x_k+1^bar = f(x_k^hat, u_k)
+x_k^hat = x_k^bar + K(y_k - y_k^bar)
+y_k^bar = g(x_k^bar)
+
+
+3a)
+Y(2, 2) = [[Y_2, ..., Y_7],
+           [Y_3, ..., Y_8]]
+O_2 = [[D],
+       DA]]
+X_2 = [X_2, ..., X_7]
+H_2^d = [[0],
+         [DB]]
+U(2, 2) = [[U_2, ..., U_7],
+           [U_3, ..., U_8]]
+A_2^~ = O_2 A (O_2 O_2^T)^-1 O_2^T
+B_2^~ = [O_2 B, H_2^d] - A^~ [H_2^d, 0]
+
+
+b)

@@ -1,0 +1,75 @@
+1b)
+Correlation is a measure of how related a feature is to another feature, or the relation between points.
+Covariance is a measure of how much a spread out the data is in two different data sets.
+
+c)
+Orthagonal means something with a 90 degree angle onto something else. Could also be called normal. The concequence of
+this in PCA is that the two things, in this case PCs, are unrelated. This is because an increase or decrease in value for
+a PC doesn't have an effect on any other PC.
+
+d)
+According to Kim Esbensen, it stands for Nonlinear Iterative Projection of Alternating Least Squares.
+Any other source I found says it stands for Nonlinear Iterative PArtial Least Squares.
+
+2a)
+The left plot is the loadings since these are always between -1 and 1 in value.
+This means we look at the right score plot to find the most extrem person, which is the person furthest from origo in any
+direction since the two PCs are equally important. This person is 8.
+
+b)
+For the same reason, the variable 10 is the most important, since it is furthest from origo
+
+c)
+Variable 8 is most important in explaining person 10 since it is the one furthest along in the same direction.
+
+d)
+The variables closest to origo are the one least involved in characterising person 10.
+
+3a)
+When performing PLSR in Unscrambler, you need to first idendify if you need make sure all data is in the correct form and 
+potensially one-hot encode som datapoints if they are categorised and not booleans. Then you must identify if you need to autoscale the data. Then, you choose the PLSR method, select your predictive features as X matrix and predicted features as
+Y matrix. Then you choose the iteration method and what type of validation method (Test set or cross validation) you want.
+After this you identify if the data is linear or not in the XY relation outliers plot, and possibly linearise the predicted
+data using a function which counters the data trend you see. Then you use the outliers plot along with the pred vs ref plot
+again to remove outliers. These are points which do not follow the general trend of the other data, and are normally characterised by a large difference between the ref and pred point. Finally, the number of significant PCs can be determined from the RMSE plot and the analysis can start by looking at the loadings, XY plot clumping and model prediction parameters.
+
+b)
+LOO cross validation works by choosing one point from the predictors data set and creating a model based on the other points. Then repeating this for all data points and averaging over the error calculated using the last point in each case as a test point. Cross validation is in general very good, because there are a lot of models and test sets used and averaged over. However, the large problems with this method is that it can be very biased if the data set is not properly distributed, as the same dataset is used for both training and testing. It can also be a very timeconsuming process if many
+models are to be made.
+
+c)
+The difference between PCR and PLSR in relation to figure 2 is that the PLSR normally drops of and flatens out faster, meaning it indicates the need for fewer significant PCs. It also doesnt rise in value until after it has flatened out, or else it indicates something wrong in the data set or the effect of noise. However, in PCR, a rise in the value early can be normal and just indicates that these is PCs model parts of the predictors not related to the predicted Y.
+
+4a)
+Full factorial design. It is called that because the experiments are designed based on all of the factors
+in the model.
+
+b)
+Screening design is used for removing unimportant factors, not contributing to the interesting predicted value.
+
+c)
+(98.4 + 77.7 + 85.8 + 91.2 + 89.4 + 88.7 + 99.3 + 81.2) / 8 - (69.7 + 71.2 + 80.1 + 72.7 + 64.2 + 68.1 + 60.4 + 83.7) / 8 = 17.7
+
+d)
+(98.4 + 77.7 + 80.1 + 64.2 + 60.4 + 83.7 + 99.3 + 81.2) / 8 - (69.7 + 85.8 + 71.2 + 91.2 + 72.7 + 89.4 + 68.1 + 88.7) / 8 = 1.025
+
+e)
+(77.7 + 69.7 + 85.8 + 71.2 + 91.2 + 80.1 + 64.2 + 99.3) / 8 - (98.4 + 72.7 + 89.4 + 68.1 + 60.4 + 83.7 + 88.7 + 81.2) / 8 = -0.425
+
+f)
+Run	A	B	C	D	removal eff
+1	1	1	1	1	99.3
+2	1	1	1	0	91.2
+3	1	0	0	1	85.8
+4	1	0	0	0	77.7
+5	0	1	0	1	80.1
+6	0	1	0	0	69.7
+7	0	0	1	1	71.2
+8	0	0	1	0	64.2
+
+g)
+Fractional factorial design.
+
+5)
+Theory of Sampling is a way of looking at the problem of collecting proper data that contains all features present, by 
+focusing on the fact that all data is hetrogenious, and thus data needs to be collected from a proper selection. In ToS, the sampeling of a data set is thought of in the sense of dimensions. The optimal sampling setup is a 1 dim setup where you sample like a convaiourbelt. However not all true streams work like this if you sample only from the top layer of a stream, you turn the setup into a 3 dim one, or if you only sample from a single side, you turn it 2 dim.

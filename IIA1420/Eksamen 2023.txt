@@ -1,0 +1,145 @@
+1.
+a) (V) Principal component analysis is not ML?
+b) (V) Artificial Neural Network is an ML method since it trains a model based on data. 
+In its case, it trains the parameters and weights of each node based on the data given.
+c) (V/X) A Kalman Filter is not a machine learning method because it doesn't learn from data, 
+but must be tweeked by a human to become better
+d) (X) Newton-Rapson is an ML method because the numerical optimization method is trained using data 
+gathered and then can predict the optimized solution later.
+e) (V) Decision trees are ML methods because they are trained by data. Specifically the limits for each
+choise inside the trees are found through training on data.
+f) (V) Alphabetical sorting is not an ML method because it is a strict set of rules which do not change
+and are not trained for better results.
+g) (V/X?) Navigation and path finding are normally done by specifying possible paths and using strict rules
+to choose the best path. However, there are some path planning algorithms using ML which are mostly 
+usefull when looking at an overwhelming amount of choises.
+
+2.
+a) (V) Hyperparameters are the parameters used by a ML algorithm which must be determined beforehand, by 
+the user, for the algorithm to work. This can be the number of clusters in an unsupervised clustering
+method like k-mean, or the number of layers in a Neural Network.
+b) (V) How to choose good hyperparameters depends on the dataset, but good practice is to analyse the 
+dataset in multiple ways and visualise the effect of the parameter on the predictions. You can also 
+try different tuning methods, like the brute force method of trying all possible values and finding
+the best one or some variant of smarter choise selection. 
+c) (V) To make sure the model is trained, tested and validated by three separate groups of data, the 
+complete dataset should be split into three unik groups with no overlap. The training data is the most
+important group and should be the larges. Then the testing and validation set could be around the same 
+size as each other, or the test group could be a little larger. A normal ratio is somewhere around an
+80/20 split between train/validation and test and another 80/20 splitt between the training and 
+validation group. However, the point is to make sure the variance and accuracy of the model 
+predictions are good. This splitting ration is refered to as the Pareto principle.
+
+3.
+a) (V/X) b is the bias of the layer, a constant. w is the list of weights of the datapoints sent to the 
+neuron. x is the list of datapoints sent in to the neuron. y is the predicted result, and f is the 
+function or topology of the neuron which decides what the neuron is focusing on.
+b) (V) Neurons can be connected together into a fully connected feed forward NN by organizing them in 
+layers and giving the outputs of one layer as inputs to the next layer. Mathmatically, this would look 
+like functions working on matrixes multiplied together, where one functions results are the next 
+functions inputs. 
+c) (V) Feed-Forward NN, Recurrent NN and Convolutional NN.
+Feed forward is the simplest method where information is sendt from one layer to the next in a single 
+direction. It works best when data is independant and not corrolated with eachother. Examples are 
+regression and classification where there is no need to learn from earlier predictions.
+Recurrent is a twist where the neural network contains cycles making the layer outputs bidirectional.
+This means the information calculated by a layer can be used in a previous layer and data can be stored
+for later use. This is usefull when using Neural networks for solving problems following a series, like
+the stock market or the weather.  
+Convolutional are feed forward neural networks with feature extraction at more and more complex levels, 
+buildt with image and language recognition in mind.
+d) (V) Transfer learning is the consept of using a prevoisly trained model on a new but similare problem. 
+This allows the model to bring previously thought experiences to the new problem and allow for a much 
+faster training, or the solving of a problem without a large pool of data.
+
+4.
+a) (V) Precision = TP / TP + FP = 35 / (35 + 65) = 35 / 100 = 0.350
+The precision is the fraction of correct positive predictions
+b) (V) Recall = TP / TP + FN = 35 / (35 + 15) = 35 / 50 = 0.70
+The recall is the fraction of actually positive cases that are correctly predicted
+c) (V) F1 score = 2 * Precision * Recall / (Precision + Recall) = 2 * 0.35 * 0.7 / (0.35 + 0.7) = 0.467
+F1 score is a constructed measurement taking into account both the precision and recall
+d) (V) Accuracy = TN + TP / ALL = (885 + 35) / (885 + 35 + 15 + 65) = 920 / 1000 = 0.920
+The accuracy is the fraction of correct predictions
+
+5.
+a) (X) Always less than parent beacuse we are splitting of instances
+b) (X) When overfitting, scaling could reduce the variance and allow for more controlled prediction even
+when overfitted. This makes it a good idea.
+
+6.
+a) (V) In an SVM, gamma regulates the influnce of a single training example. Increasing it gives a larger 
+influnce and can help with underfitting by allowing a more complex model. 
+b) (V) C controls the regularisation of the classification. Increasing the value makes the model allow for 
+fewer misclassifiactions and could make the training more effective. 
+
+7.
+a) (V) Clustering is asigning datapoints to groups based on some similare characteristics. Clustering metods 
+aim to predict which group a datapoint belongs to by a trained set of thresholds.
+b) (V) Clustering algorithms can be used for classification problems like identifying spam emails or fraud
+bank transactions, object recognision or pattern recognision.
+c) (X) To select the right number of clusters, you could visualise the data and look for possible obvious 
+clusters, or you could do a Newtonian iteration for each cluster number and evaluate the spread of the
+clusters to determine the best fit. The specific case might also be important in determining the number
+of clusters.
+
+8.
+a) (V/X) Pressure can be detected in multiple ways, but mechanical movement of metal parts connected to the 
+pipe, or changes in electrical voltage or capacity are the most common. A transmitting pressure 
+detector can be placed anywhere on the pipe as long as the volume is unchanged, as the pressure is 
+constant.
+b) (V/X) Before use, the sensor must be calibrated according to the local pressure and its own fluctuations. 
+Then the Sensor must be calibrated with the normal flow pressure and its variations.
+c) (V) Sudden drops in pressure cold indicate a leak, or a gradual decrease in the mean value could be a 
+sign.
+d) (V/X) A recurrsive NN which could be a good model as it works best on timeseries problems and can work in
+realtime, instead of using bulks of data, when it needs to identify changes based on past data.
+e) (V) Since leaks are not normally occuring and would be costly or hard to induce by choise, the dataset
+would be heavily favouring the normal state and if the to datagroups are made similare in size, the 
+total dataset could be problematically small.
+
+9.
+a) (V) You want to use lasso regression instead of ridge when you have few important features in your 
+dataset as it is better at removing unimportant features from the estimation process.
+b) (V) Sometimes lasso regression becomes to scewed towards a single feature, and in these cases, elastic 
+net as a middleway between ridge and lasso can be better.
+
+10.
+a) (V) Aliasing is a problem where a signal is sampled at different intervals could be indistiguisable from
+a different signal based on the frequency, this normally happens when samples are taken with to long of
+an interval.
+b) (X) 15 Hz |Correct is 2x30 = 60 Hz
+
+11. (V/X) Since a linear dipendance upon the temperature is the relation you want, you can see that 
+Thermistors have a low temperature working range and they are very sensitive to changes. RTDs have a 
+much higher working range, and are also quite sensitive. Finally, the Thermocouple is very insensitive
+to temperature changes, but it can be used at both low, medium and high temperatures. However, when used
+at a different working range, it must be tuned again.
+
+12.
+a) (V) All three types of pressure are comparisons of pressure between a medium and something else. 
+Absolute pressure is a mediums pressure compared with a vacuum. Gauge pressure is compared to the 
+atmosphere. Differential pressure is compared to another medium.
+b) (X) A subscript of either abs, diff or gau? Don't know. |Correct is parenthesis with first letter.
+
+13.
+a) (V) The principle of the electromagnetic flow meter is to induce a current in a closed loop based on the 
+amount of liquid flowing through the pipe.
+Three addvantage of this type are no moving parts, so low maintenance, it is not effencted by particles 
+in the liquid, and it is independant of the liquids pressure, temperature of viscosity.
+Three disadvantages are that the medium must be conductive, the sensor must be interacting with the 
+liquid, making it harder to install, and deposits inside the pipe could make it less accurate.
+b) (X) A vortex flow sensor is consists of a freemoving vortex spun around by the moving liquid inside the
+pipe. It has the advantages of being very precise, one directional, maening it can hinder errorus flow,
+and its cheap. However, it consists of moving parts which could break more easily, it it must be 
+installed inside the pipe, and it interacts directly with the liquid, making it flow more slowly.
+
+14. (V)
+m = rho * A * (H - h)
+m = 1000 * 2.0 * (2.0 - 1.0) = 2000 * 1.0 = 2000
+RSS = sqrt((u_rho * dm/drho)^2 + (u_A * dm/dA)^2 + (u_h * dm/dh)^2)
+RSS = sqrt((10 * 2.0 * 1.0)^2 + (0.01 * 1000 * 1.0)^2 + (0.01 * -1.0 * 1000 * 2.0)^2)
+RSS = sqrt((20)^2 + (10)^2 + (-20)^2)
+RSS = sqrt(400 + 100 + 400) = sqrt(900) = 30
+
+m = 2.0 * 10^3 +- 30 kg

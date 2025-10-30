@@ -1,0 +1,42 @@
+1a)
+The reason for this increase in the variance plot seen in PCR and not in PLS is that this component PC2 models features not related to Y. This will not appear in a PLS plot since the covariance is studied here.
+
+b)
+The PCs from dataset 2 better model the Y then dataset 1. This means the first component is much more important for 2 than 1.
+
+2a)
+The finale prediction model wil be based on the 60 objects from the calibration method since the model is made from this, and then the model is tested and evaluated from the 40 objects in the test set.
+
+b)
+Then the finale model will be based on all the 20 models, though all the 20 models made will be based on different combinations of 19 of the 20 models.
+
+3a)
+The slope of a model is how the model changes. For a model described by a function, this is the derivative of that function.
+correlation is a measure of how related to objects or features are, or how much change in one leads to change in another.
+Root Mean Square Error of Prediction is the root of the mean value of the squared differences between each of the predicted and true values from a model.
+Offset is the difference between a models regression line and origo when crossing the Y line.
+The slope has no optimal value.
+Correlation has no real optimal value, but most models are easier to analyse if correlation between features are zero.
+RMSEP value is optimally zero, but this is not realistic.
+Offset is also optimally zero.
+
+b)
+Accuracy is how close an models prediction is to the measured value. Precision is how wide spread the predictions for the same object is if done multiple times
+
+c)
+PCA and PCR will show identical scores, since they do exactly the same thing. PLS will not since the scores here also represent infor from the Y matrix.
+
+4a)
+This is a fractional factorial design
+
+b)
+Nope
+
+c)
+Nope
+
+d)
+The interactive effect of any three of the parameters, ABC ABD ACD or BCD are sacrefised.
+
+5)
+The four practical sampling unit operations are crushing, mixing, mass reduction and composit sampling

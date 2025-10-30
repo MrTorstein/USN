@@ -1,0 +1,179 @@
+1a)
+x_k+1 = theta_1 x_k + theta_2 u_k + theta_1 e_k (1)
+y_k = x_k + e_k (2)
+Reordering (2) => x_k = y_k - e_k
+Add (2) into (1) both places
+y_k+1 - e_k+1 = theta_1 (y_k - e_k) theta_2 u_k + theta_1 e_k => y_k+1 = theta_1 y_k + theta_2 u_k + e_k+1
+Since k is arbitrary, redusing from k+1 to k and k to k-1
+y_k = theta_1 y_k-1 + theta_2 u_k-1 + e_k
+Writing on matrix form
+y_k = [y_k-1, u_k-1] [theta_1, theta_2] + e_k
+phi_k^T = [y_k-1, u_k-1]
+theta_0 = [theta_1, theta_2]
+
+b)
+eps_k = y_k - y_k^bar
+y_k^bar = phi_k^T theta
+eps_k = y_k - phi_k^T theta
+
+y_k = phi_k^T theta_0 + e_k
+Multiply by phi_k and arrange for theta_0
+theta_0 = theta_N = (phi_k phi_k^T)^-1 phi_k y_k
+
+
+c)
+A/B and AB^+ means:
+A/B is the projection of A down on B
+AB^+ is the projection of A on the line normal to B kown as B^+
+
+Y/X = YX^T (XX^T)^-1 X
+YX^+ = Y - YX^T(XX^T)^-1 X
+
+It is correct that Y = A/B + AB^+ since these are just decompositions of Y.
+
+
+d)
+Y = OX + E
+Y X^T = X X^T O + E X^T
+Disregard nonsystematic error E
+Rearrang for O
+O = (X X^T)^-1 Y X^T
+
+Y^bar = O X = (X X^T)^-1 Y X^T X
+Y^bar = Y X^T (X X^T)^-1  X
+Yes, Y^bar = Y/X
+
+
+e)
+A hankel matrix is a matrix on the form
+H(x, L, J) = [[H(x), H(x + 1), H(x + 2), ..., H(x + J - 1)],
+              [H(x + 1), H(x + 2), H(x + 3), ..., H(x + J)],
+              [H(x + 2), H(x + 3), H(x + 4), ..., H(x + J + 1)],
+              ...
+              [H(x + L - 1), H(x + L), H(x + L + 1), ..., H(x + J + L - 2)]]
+
+H(1, 2, 3) = [[H(1), H(2), H(3)],
+              [H(2), H(3), H(4)]]
+H(2, 2, 3) = [[H(2), H(3), H(4)],
+              [H(3), H(4), H(5)]]
+
+O_L = [DA^0, DA^1, DA^2, ..., DA^(L-1)] ;(column matrix)
+if L = 2, O_L = [D, DA]
+C_J = [A^0B, A^1B, A^2B, ..., A^(J-1)B]
+if J = 3, C_J = [B, AB, A^2B]
+
+H(x, L, J) = O_L * A^(x - 1) * C_J
+
+U_1S_1V_1^T \approx O_LC_J
+Choose either O = US and V^T = C
+or O = U and SV^T = C
+or O = U\sqrt(S) and \sqrt(S)V^T = C
+
+S = [[S_1, 0],
+     [0, S_2],
+     [0, 0]]
+
+To find A:
+O_L^T H(2, L, J) C_J^T = O_L^T O_L * A * C_J C_J^T
+A = (O_L^T O_L)^-1 * O_L^T H(2, L, J) C_J^T * (C_J C_J^T)^-1
+
+rank(H(1, L, J)) = n or the number of non zero values in H(1, L, J) which is also the number of collumns in S.
+
+
+2a)
+A state observer is an estimator for the unmeasured state x_k known as x_k^hat. It is optimal when for example a Kalman filter has minimised the error of such an estimator, in the Kalman filters case, it is the mean square error E((x_k - x_k^hat)(x_k - x_k^hat)^T) = x^hat which is the covariance matrix of the error x_k - x_k^hat
+
+
+b)
+y_k^bar = D X_k^bar
+x_k^hat = x_k^bar + K_k(y_k - y_k^bar)
+x_k+1^bar = A x_k^hat + B u_k
+
+
+c)
+y_k^bar = D X_k^bar or y_k = y_k^bar + eps_k
+x_k+1^bar = A x_k^bar + A K_k(y_k - y_k^bar) + B u_k = A x_k^bar + K_k^~ eps_k + B u_k
+
+
+d)
+The Kalman gain for the innovation model k^~ is the relationship.
+
+
+e)
+y_k^bar = g(x_k^bar)
+x_k^hat = x_k^bar + K_k(y_k - y_k^bar)
+x_k+1^bar = f(x_k^hat, u_k)
+
+
+f)
+y_k^bar = D X_k^bar 
+x_k+1^bar = A x_k^bar + B u_k + K_k^~ eps_k = A x_k^bar + B u_k + K_k^~ (y_k - y_k^bar)
+x_k+1^bar = A x_k^bar + B u_k + K_k^~ (y_k - D X_k^bar)
+x_k+1^bar = (A - K_k^~) x_k^bar + B u_k + K_k^~ y_k
+
+The PE eps_k is defined as y_k - y_k^bar which is the difference between the true value and the predicted value of y at time k.
+
+Need to find the optimal theta_N by minimising predicition error criterion
+V(theta) = 1/N sum_k=1^N eps_k eps_k^T
+can express A, B, K and D in terms of theta_N and find
+A = [[0, 1], [theta_1, theta_2]]
+B = [theta_3, theta_4]
+K = [theta_5, theta_6]
+D = [0, 1]
+x_0^bar = [[theta_7], [theta_8]]
+and we get theta = [theta_1, theta_2, theta_3, theta_4, theta_5, theta_6, theta_7, theta_8]
+
+
+
+3a)
+for N = 10, L = 2, J = 2, g = 0
+E = 0 because g = 0 means we get
+Y(J, L) = O_2 X_2 + H_2^d U(2, 1)
+number of columns = k_max
+k_max = N - J - L = 10 - 2 - 2 = 6
+number of rows = L
+Y(2, 2) = [[Y_2, ..., Y_7], [Y_3, ..., Y_8]]
+Y(3, 2) = [[Y_3, ..., Y_8], [Y_4, ..., Y_9]]
+O_2 = [D, DA]
+X_2 = [X_2, ..., X_7]
+H_2^d = [[0], [DB]]
+U(2, 1) = [[u_2, ..., u_7]]
+U(2, 2) = [[u_2, ..., u_7], [u_3, ..., u_8]]
+A^~ = O_2 A (O_2 O_2^T)^-1 O_2^T
+B^~ = [O_2 B, H_2^d] - A^~ [H_L^d, 0]
+
+
+b)
+The projection matrix is
+P = U^+ = I - U^T(UU^T)^-1 U
+
+Derministic,
+Z(J, L) = defined as the projection from Y(J, L) onto U(J, L + g - 1)^+ or Y(J, L) U(J, L + g - 1)^+
+this projection U(J, L + g - 1)^+ =  I - U(J, L + g - 1)^T (U(J, L + g - 1) U(J, L + g - 1)^T)^-1 U(J, L + g - 1)
+
+for a general case, first the noise must be removed by projecting Y onto W where W is a defined instrument matrix built from unused matrixes. an example for the case above could be W = [U(0, L+g), U(0, J), Y(0, J)]
+Then Z = (Y / W) U^+
+
+
+c)
+If we take the SVD of Z, we get that O_L X_0^~ = USV
+n is then given as the number of non-zero values in S
+O can be estimated directly and from chosing O = U or som other version of this
+A can then be found by solving Z(J + 1, L) = A^~ Z(J, L) for A by using that A^~ = OA(OO^T)^-1 O^T
+Finally, D can be estimated from the first row in O_L
+
+
+d)
+eps_k = Fe_k
+K = C/F
+this is the relationship between the two forms
+
+
+e)
+Y(J, 1) = [Y_J, ..., Y_J+N-1]
+X_J = [X_J, ..., X_J+N-1]
+E = 0 since g = 0
+
+using the first and last equality in 21,
+eps = Y - Y/[U, Y_0]
+then this can be solved as a deterministic system
