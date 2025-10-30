@@ -1,0 +1,19 @@
+1a)
+Basicly same as in 22
+
+b)
+It would not work because the inclusion of the gravitational term will make the state-space relation zero for a value of q~ different from zero. In simulations, this can be seen as the joint position reaching an equilibrium point with a slight offset from the desired one.
+
+2a)
+b)
+c)
+Done in the book
+draw normally, no offset needed.
+DH tabel is n, a, d, alpha, theta
+You use the DH tabel together with the homogenous transfer function to create a transfer fucntion for all joints, and sum them. Then you can find the X as H(1, end) Y from H(2, end) and finally Z as H(3, end)
+
+3a)
+No, the candidate must be negative definite, not semi. To prove this if the reason is that the derivative is only dependant upon one of its parameters, you can use La-Salle's theorem and prove there exists an invariate set such that V^d is zero, and that this set consists only of both V's parameters being zero.
+
+3b)
+Peaking is a result of the error term epsilon in the observer model being set very low. This is desierable because it makes the controller converge faster, but the peaking can cause unwanted extreme motion. We can mitigate this by saturating the control inputs. 

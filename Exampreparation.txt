@@ -1,0 +1,30 @@
+Forward kinematics:
+x_i = f(q_i)
+ex:
+A simple rotating arm with length l an angle q
+R(q_i) = [[cos(q_i), sin(q_i), 0], [-sin(q_i), cos(q_i), 0], [0, 0, 1]]
+T(lx, ly) = [[1, 0, 0], [0, 1, 0], [l_x, l_y, 1]]
+
+We need to rotate by q and tanslate by l. This means E, which is the homogenous transfer function of the end-effector is equal to R(q)T(l)
+E = R(q)T(l) = [[cos(q), sin(q), 0], [-sin(q), cos(q), 0], [0, 0, 1]] [[1, 0, 0], [0, 1, 0], [l, 0, 1]] = [[cos(q), sin(q), 0], [-sin(q), cos(q), 0], [l cos(q), l sin(q), 1]]
+Then the x coordinate of the end-effector is E[2, 0] and y is E[2, 1].
+x = l cos(q)
+y = l sin(q)
+
+Inverse kinematics:
+q_i = f^-1(x_i)
+
+
+Control stability analysis:
+Step 1 - Define the controller equation for tourque
+Step 2 - Combine the Euler-Lagrange equation of motion with the controller equation to form a closed loop system
+Step 3 - Form a state-space representation of the closed loop system
+d/dt(q~  q^dot) = (-q^dot  d/dt(q^(dot^2)))
+Step 4 - Find the equilibrium point. Where the state-space representation is equal to zero
+Step 5 - Choose a Lyapunov function based on the kinetic and potensial energy. For controllers, this is 1/2 q^dot^T m q^dot + 1/2 q~^T K_p q~
+Step 6 - Find the derivative of the Lyapunove function V^dot. The first term is the power which is also q^dot^T * tau
+Step 7 - Prove that V^dot is always negative for q^dot =/= 0
+Step 8 - If V^dot is not a function of q~, use LaSalles Theorem and prove that q~ has to be zero when V^dot is zero by using the fact that q^(dot^2) = 0 when q^dot = 0 and evaluate the closed loop system with these to results.
+If q~ has to be zero then, the system is asymtotically stabile.
+
+
