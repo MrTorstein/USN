@@ -1,0 +1,52 @@
+1a)
+R(q_1)
+T(l_1)
+R(q_2)
+T(l_2)
+
+b)
+Done in book
+
+c)
+Done in book
+
+2a)
+We have M q^dd + C q^d + G = tau
+and tau = Kp q~ + Kv q~^d + G
+where q~^d = - q^d
+We add them together to a closed loop system
+M q^dd + C q^d + G = Kp q~ + Kv q~^d + G
+M q^dd + C q^d = Kp q~ + Kv q~^d
+use the fact that M is always invertable to solve for q^dd
+q^dd = M^-1(Kp q~ + Kv q~^d - C q^d)
+We form a state space-model
+d/dt(q~  q^d) = (-q^d  q^dd) = (-q^d  M^-1(Kp q~ + Kv q~^d - C q^d))
+Then we choose a Lyapunove function candidate
+V = 1/2 q^d^T m q^d + 1/2 q~^T Kp q~
+for V(0, 0) all terms are zero and the result is = 0
+find V^d = d/dq^d(V)q^dd + d/dq~(V)q~^d = d/dq^d(V)q^dd - d/dq~(V)q^d
+Det første deriverte leddet blir kraft, som er summen av torque og gavitasjons torque ganget med fart.
+V^d = q^d^T (tau - G) - q~^T Kp q^d
+Setter inn tau
+V^d = q^d^T (Kp q~ + Kv q~^d + G - G) - q~^T Kp q^d
+V^d = q^d^T Kp q~ + q^d^T Kv q~^d - q~^T Kp q^d
+Siden Kp er en positivt definert symmetrisk diagonal matrise så kan matirser på hver side byttes om.
+V^d = q~^T Kp q^d - q~^T Kp q^d + q^d^T Kv q~^d = q^d^T Kv q~^d = - q^d^T Kv q^d
+siden Kv er en positivt definert symmetrisk diagonal matrise og det er en transponert og en vanlig q^d så vil dette altid være negativt for alle q^d =/= 0.
+Men siden q~ ikke er i funksjonen kan den være hva som helst og vi må bruke La-Salles teorem for å finne ut om den systemet er asymtotisk stabilt
+V^d = 0 = - q^d^T Kv q^d fører til at q^d må være 0
+det betyr også siden q^d er en del av settet i La Salles teorem at q^dd = 0
+Vi evaluerer closed loop systemet med disse to antagelsene
+M q^dd + C q^d = Kp q~ + Kv q~^d = Kp q~ - Kv q^d
+0 + 0 = Kp q~ + 0
+Da må q~ også være lik 0, og fra La-Salles teorem og Lyapunovs teorem så er systemet asymptotisk stabilt.
+Hvis det er tilfelle så må q~ gå mot null når t går mot uendelig, og det er målet til posisjonskontroll.
+
+b)
+The main difference between positional controll and trajectory controll is that for the positional control, a desired joint position is given and the controller should find values for the torque such that the difference between joint positions and desired joint positions approch zero. However, for trajectory controll, desired joint position, joint velocities and joint accelerations are given and the torque should be found such that joint positions approch desired joint positions while the joint velocities and accelerations also approch their desired counterparts.
+
+3a)
+Chattering is caused by a fast switch between positive and negative values in the sliding model control system. This happens if the model uses a sign function for the siding factor s, which will switch rapidly from one to minus one if the value is around zero.
+
+3b)
+Unsmooth motions as a result of high degrees of freedom robots having multiple solutions to its invers kinematic problems can be solved by proper initialisation. One way of doing this is to use a warm start routine.
