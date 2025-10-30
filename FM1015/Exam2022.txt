@@ -1,0 +1,32 @@
+1. A X
+2. B V
+3. A V
+4. B V
+5. B X
+6. C X
+7. D V
+8. C V
+9. D X
+10. C V
+11. D V
+12. D X
+15. D X
+16. D V
+20. B V
+
+
+
+
+m = m1 + m2
+pV = p1V1 + p2V2
+p = V1/V p1 + V2/V p2 = X1p1 + X2p2
+V2 = V - V1
+p = V1/V p1 + (V - V1)/V p2 = X1p1 + (1 - X1)p2
+
+drho = rho(b dp - a dT)
+integral drho = integral rho b dp - rho a dT
+rho = integral rho (b_0 + b_1 p) dp - rho a T
+
+1/rho drho/dp = b_0 + b_1 p
+drho/dp = b_0 rho + b_1 p rho
+rho = 

@@ -1,0 +1,46 @@
+x_t+1 = Ax_t + Bu_t
+y_t = Dx_t + Eu_t
+
+x_t = Ax_t-1 + Bu_t-1
+
+x_t+1 = A(Ax_t-1 + Bu_t-1) + Bu_t = A^2x_t-1 + ABu_t-1 + Bu_t = A^2x_t-1 + B(Au_t-1 + u_t)
+if we assume we move from 0 to t instead of t-1 to t+1 then x_t = A^tx_0 + Bsum_1^t(A^(t-i) u_i-1)
+y_t = Dx_t + Eu_t = DA^tx_0 + DBsum_1^t(A^(t-i) u_i-1) + Eu_t
+
+
+
+
+x_0 = 0
+y_t = Dx_t + Eu_t
+y_t = DA^tx_0 + DBsum_1^t(A^(t-i) u_i-1) + Eu_t
+y_0 = Dx_0 + Eu_0 = E => E = -1
+y_1 = DB(u_0) + Eu_1 => 2 = DB => DB = 2
+y_2 = DBsum_1^2(A^(2-i) u_i-1) = DBA => DAB = -1
+y_3 = DBsum_1^3(A^(3-i) u_i-1) = DBA^2 => BA^2B = -1.9
+y_4 = DBsum_1^4(A^(4-i) u_i-1) = DBA^3 => BA^3B = -1.93
+
+
+
+C^n is a matrix of A^n-1 * B
+C^n = [B, AB, A^2B, A^3B, A^4B, ..., A^n-1B]
+O^n = [D, DA, DA^2, ..., DA^n-1]
+
+If the system is controllable and observable, then the ranks are both n
+
+H_1|L = O_LC_J = O_l * C_j => H_1|L_(l,j) = O_l * C_j
+H_1|L_(0,0) = DB
+H_1|L_(1,0) = DAB
+H_1|L_(0,1) = DAB
+H_1|L_(1,1) = DA^2B
+H_1|L_(l,j) = DA^(l-1+j-1)B = DA^(l+j-2)B
+since rank(O) and rank(C) is the same, then rank(H_1|L) is also n
+
+
+
+SVD for H is
+H = USV^T
+This means U = O_L and SV^T = C_J
+
+
+
+D and B is given by O_0 and C_0

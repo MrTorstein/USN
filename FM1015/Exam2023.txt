@@ -1,0 +1,43 @@
+#2.
+un = - (Delta_r G_) / (F mu_e)
+un = - (sum(mu_j G_j_)) / (F mu_e)
+un = - (sum(mu_j (G_j^0 + RTln(a_j)))) / (F mu_e)
+un = - ( sum(mu_j G_j^0) + RT sum(mu_j ln(a_j))) / (F mu_e)
+
+sum(mu_j ln(a_j))
+mu_c ln(a_c) + mu_a ln(a_a)
+Both B and D?
+
+#3
+G_H2O = G_H2O^0 + RT * ln(a_H2O)
+G_H2O_g = G_H2O^0 + 60R * 0
+G_H2O^0_g = Delta_fG_H2O^0 - Delta_fS_H2O^0 * b + cp_H2O * c = -228000 - 188 * (60 - 20) + 33 * (60 - 20 - 60 * ln(3))
+G_H2O_g = -228000 - 188 * (60 - 20) + 33 * (60 - 20 - 60 * ln(3)) = -236375
+
+G_H2O_l = G_H2O^0 + RT * ln(10^(A - B/(T + C - 273))) = G_H2O^0 + 60R * ln(10^(5 - 1687/(60 - 43)))
+G_H2O^0_l = -237000 - 69 * (60 - 20) + 75 * (60 - 20 - 60 * ln(3))
+G_H2O_l = -237000 - 69 * (60 - 20) + 75 * (60 - 20 - 60 * ln(3)) + 60 * 8 ln(10^(5 - 1687/(60 - 43))) = 241920
+
+#4
+?
+un_0 = (Delta_r G_) / (F mu_e)
+
+#5
+u_a = u_aa + u_ac
+L(du_aa/dt) = i_adl / C_adl = (i - iar) / C_adl = (i - u_aa/R_a) / C_adl
+su_aa(s) - u(t = 0) = (i - u_aa/R_a) / C_adl
+u_aa(s) = (i - u_aa/R_a) / (C_adl s) + u_aa(0) / s = i / (C_adl s) - u_aa / (R_a C_adl s) + u_aa(0) / s
+u_aa(s)(1 + 1 / (R_a C_adl s)) = i / (C_adl s) + u_aa(0) / s
+u_aa(s) = i / (C_adl s + 1 / (R_a)) + u_aa(0) / (s + 1 / (R_a C_adl))
+u_ac(s) = i / (C_cdl s + 1 / (R_c)) + u_ac(0) / (s + 1 / (R_c C_cdl))
+u_a = i / (C_adl s + 1 / (R_a)) + i / (C_cdl s + 1 / (R_c)) + u_aa(0) / (s + 1 / (R_a C_adl)) + u_ac(0) / (s + 1 / (R_c C_cdl))
+
+u_a(i) = i / (C_adl s + 1 / (R_a)) + i / (C_cdl s + 1 / (R_c)) 
+u_a(i) = (C_cdl s + 1 / (R_c) + C_adl s + 1 / (R_a)) / (C_cdl s + 1 / (R_c))(C_adl s + 1 / (R_a)) i
+u_a(i) = ((C_cdl + C_adl) s + (R_a + R_c) / (R_a R_c)) / (C_cdl s + 1 / (R_c))(C_adl s + 1 / (R_a)) i
+u_a(i) = ((R_c R_a) (C_cdl + C_adl) s + (R_a + R_c)) / (R_c C_cdl s + 1)(R_a C_adl s + 1) i
+
+
+#17
+n0 = un * i / (dH * ng) = un * i / (dH * i / (nu_e * (-1) F)) = - un nu_e F / dH
+n0 = - 1.25 * 4 * 9.7 * 10^4 / -241785 = 2.006

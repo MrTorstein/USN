@@ -1,0 +1,23 @@
+- It is possible to see a clear difference in clusters between seto and the other two, just from a scatterplot.
+- It is also apperant form the matix plot that there is a need for both normalisation and variance scaling.
+- Not using a variance scaling gives a clear favouring of the petal length wich is the on whom has the larges variation as seen in the matrix plot.
+- From the PCA model, the most important variables for discriminating between clusters are the Petal Width and Length. However, there is som tendancy for the vers to cluster away from the virg, and the variable most important to differn between these is the Sepal Width.
+- 70% is explained by PC1 and 95% by PC2.
+- Looking at PC1 vs PC2 it is clear that the seto differ from the other two clearly, mostly due to Petal length and with, but also Sepal length. However, the vers and virg are one big cluster with vers tending to the left and top and virg to the right and bottom, but no clear border
+With PC1 vs PC3, the difference between seto and the others is clear still, and the cluser of the two others are still there. However, there is a clearer border, but still not absolute.
+
+
+- With IRIS_NEW, there is a clear outlier which I removed.
+- Other then that, there is no new changes to the clustering.
+- kro-23 contains the same info as petal width and length.
+- kro-11 contains almost the same info as sepal width, just width opposite value.
+- PC3 is explaines a larger part of the results, and is thus more trustworthy?
+
+
+- With the adition of the dummy units for each of the three types, it is a much clearer difference between the clusters of vers and virg.
+- It is now possible to draw a clear line between all three clusters.
+- No other variables contain the same info as any of the plant types, but the petal width, petal length, kro-23 and sepal length contain almost exactly the opposite of seto.
+- No variable contain the opposite of virg or vers, but Sepal width is the closest to being the opposite of vers.
+
+
+This whole analysis indicates that there is some connection between vers and virg.
