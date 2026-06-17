@@ -1,0 +1,13 @@
+Part 1
+- Setup raspberry pi with os and remote access from pc V
+- Retrive temperature from 2 sensors V
+- Implement low pass filter V
+- Make physical HMI with LED and push buttons V
+- Store data to MongoDB and Thingspeak V
+- Setup data analysis of aquired data on pc V
+- Comment on security
+
+Part 2
+- Setup a MQTT Broker and test it using MQTTX V
+- Setup Publishing to MQTT from Pi V
+- Setup Subscribing to MQTT from PC to store data to MongoDB and to do analysis V
