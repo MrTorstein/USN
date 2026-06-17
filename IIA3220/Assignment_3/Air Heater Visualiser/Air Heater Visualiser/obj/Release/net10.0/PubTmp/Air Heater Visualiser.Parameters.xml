@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AirHeaterVisualiser" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\tor-e\\Documents\\Skole\\USN\\IIA3220\\Assignment_3\\Air\ Heater\ Visualiser\\Air\ Heater\ Visualiser\\obj\\Release\\net10\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
