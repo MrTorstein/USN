@@ -1,0 +1,78 @@
+1a)
+min w_g.i
+J = sum(- C_oil sum(w_g.i)^T Q_k sum(w_g.i)) + sum(- C_gas sum(w_g.i)^T P_k sum(w_g.i))
+w_o.i^k+1 = f(w_o.i^k, w_g.i^k, theta_i)
+sum(w_g.i) <= w_g.max
+g(w_g.i^k, theta_i) <= P_s.max
+
+b)
+If given a value of P_s.max, the problem is infeasible, then the value of P has to be so low that the pressure 
+will always be above the limit for one, two or all of the wells. Then I can either drop the problematic well completely, or
+attempt to adjust the theta_i.
+If P_s constaint is a soft constraint, then it can be softened by adding a softening parameter S_H^k. Then the new problem
+becomes like the old one, except:
+min w_g.i, S_H
+J = sum(- C_oil sum(w_g.i)^T Q_k sum(w_g.i)) + sum(C_gas sum(w_g.i)^T P_k sum(w_g.i)) sum((S_H^k)^T S (S_H^k))
+g(w_g.i^k, theta_i) <= P_s.max + S_H^k
+
+2a)
+Since operating points, parameters and time step are constant, can be written as
+x_k+1 = Ax_k + Bu_k + v
+y_k = Cx_k + w
+e_k = r_k - y_k
+du_k = u_k - u_k-1
+
+Then
+J = 1/2 z^T H z + c^T z = 1/2 (e^T P e + u_k-1^T Q u_k-1 + du_k-1^T R du_k-1)
+1/2 (u, du, e, y, x) (H1, H2, H3, H4, H5) (u, du, e, y, x) + (c1, c2, c3, c4, c5) (u, du, e, y, x)
+	 = 1/2 (e^T P e + u_k-1^T Q u_k-1 + du_k-1^T R du_k-1)
+1/2 (u^T H1 u + du^T H2 du + e^T H3 e + y^T H4 y + x^T H5 x) + c1 u + c2 du + c3 e + c4 y + c5 x
+	 = 1/2 (e^T P e + u_k-1^T Q u_k-1 + du_k-1^T R du_k-1)
+1/2 (u^T I kron Q u + du^T I kron R du + e^T I kron P e + y^T 0 y + x^T 0 x) + c1 u + c2 du + c3 e + c4 y + c5 x
+	 = 1/2 (e^T P e + u_k-1^T Q u_k-1 + du_k-1^T R du_k-1)
+
+H = (I kron Q, I kron R, I kron P, I kron 0, I kron 0)
+c = I kron 0
+
+b)
+Az = b
+[A1u, A1du, A1e, A1y, A1x]   ( u)   (b1)
+[A2u, A2du, A2e, A2y, A2x]   (du)   (b2)
+[A3u, A3du, A3e, A3y, A3x] = ( e) = (b3)
+[A4u, A4du, A4e, A4y, A4x]   ( y)   (b4)
+                             ( x)
+
+[ -B, 0, 0, 0,I-A]   ( u)   (A0 + v,v,..,v)
+[  0, 0, 0, I, -C]   (du)   (            w)
+[  0, 0, I, I,  0] = ( e) = (            r)
+[I-I,-I, 0, 0,  0]   ( y)   (            0)
+                     ( x)
+
+
+3a)
+x_k+1 = A x_k + B u_k
+y_k = C x_k
+
+x^t_k+1 = A^t x^t_k + B^t y_k
+y^t_k = C^t x^t_k
+n_t = 0.5/0.1 = 5
+
+x^t_k+1 = (x^1_k+1, x^2_k+1, x^3_k+1, x^4_k+1, x^5_k+1)
+x^t_k = (x^1_k, x^2_k, x^3_k, x^4_k, x^5_k)
+A^t = I_4 kron I_5
+B^t = (1, 0, 0, 0, 0)^T
+C^t = (0, 0, 0, 0, 1)
+
+b)
+x^t_k+1 = A^t x^t_k + B^t C x_k
+y^t_k = C^t x^t_k
+
+Merge the two into
+(x_k+1  ) = (    A, 0)(  x_k) + (B)u_k
+(x^t_k+1)   (B^t C, A^t)(x_k^t) + (0)
+
+y_k^t = (0, C^t)(  x_k)
+		(x_k^t)
+
+x^~_k+1 = A^~ x^~_k + B^~ u_k
+y_k^t = C^~ x^~_k
