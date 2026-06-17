@@ -1,0 +1,6 @@
+V 1. Create an Arduino PID controller
+V 2. Create a Low Pass Filter and test it using temperature sensor
+V 3. Log data in ThingSpeak
+V 4. Create physical controls and "display" for the controller
+V 5. Change values using Serial Monitor or Plotter
+V 6. Create a digital hmi for monitoring data and controlles and changing parameters
