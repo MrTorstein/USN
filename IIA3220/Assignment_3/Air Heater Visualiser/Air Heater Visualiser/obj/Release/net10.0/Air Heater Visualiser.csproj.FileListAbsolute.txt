@@ -1,0 +1,135 @@
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Cosmos.CRTCompat.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\msvcp140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\vcruntime140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\vcruntime140_1.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\appsettings.Development.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\appsettings.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.staticwebassets.runtime.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.staticwebassets.endpoints.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.exe
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.deps.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.runtimeconfig.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Air Heater Visualiser.pdb
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Azure.Core.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Azure.Identity.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Bcl.HashCode.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Identity.Client.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\Newtonsoft.Json.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.ClientModel.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Memory.Data.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Security.Permissions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\System.Windows.Extensions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\bin\Release\net10.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.csproj.AssemblyReference.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\rpswa.dswa.cache.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.AssemblyInfoInputs.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.AssemblyInfo.cs
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.csproj.CoreCompileInputs.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.RazorAssemblyInfo.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.RazorAssemblyInfo.cs
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\rjimswa.dswa.cache.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\scopedcss\bundle\Air Heater Visualiser.styles.css
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\scopedcss\projectbundle\Air Heater Visualiser.bundle.scp.css
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\axbs0lmvt7-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\yvz82ny53n-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\wax6rs4z6t-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\vop56t1vmc-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\604yhhtafa-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\t516rgvzxn-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\87n5nx8mb3-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\7zh8srlp25-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\vnchvpukiz-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\q16bgdneyi-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\hhh4ic11j5-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\ad1vzg3vff-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\n077aaksov-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\0n79wh1iqv-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\70dm4ax4xl-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\4ff98dvzsj-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\2xayfnimbv-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\2fid2psgg0-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\4mps923ctg-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\nq34znitjh-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\tj8c7txztp-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\1rro9zn8kx-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\7mesrl56w6-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\kn4ex55dag-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\f7ihh4xvbe-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\jg8rdkxcbe-{0}-06098lyss8-06098lyss8.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\fc3v7tfjy4-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\ogjd8f5l4e-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\a35bkc5d9t-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\8gmijflmw7-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\7oah941wbx-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\vddz7tnhdl-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\44ct906zs0-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\db9lhz3uoo-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\1f5hqlw1xg-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\7wwrvuytxm-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\qgzepfg2lp-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\z6cc7gpl69-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\lbdzwuqzdi-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\77uflusu80-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\k5x6imqxtv-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\q47rephoym-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\sr6jxxz8ep-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\wrj8npi9pt-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\g7q9dngtxa-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\wm9ny84lma-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\leenomy9c5-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\kyeall94kp-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\q72uef6xiw-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\0bqpxugy7s-{0}-356vix0kms-356vix0kms.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\8hu3ivl9v9-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\qog4kijoh3-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\qaan3f7kmu-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\v22rmsdmh4-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\nckvo6b62l-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\le32pr5c8e-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\n0btf1bhcm-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\6r5j1xoako-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\u83rp2lgtf-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\zv4wfihnrn-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\oweemqj84b-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\03txrbabdg-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\62knmlrnrs-{0}-6lnf9ajjdm-6lnf9ajjdm.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\compressed\fgvnpvz5bm-{0}-6lnf9ajjdm-6lnf9ajjdm.gz
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\staticwebassets.build.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\staticwebassets.build.json.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\staticwebassets.development.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\staticwebassets.build.endpoints.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\swae.build.ex.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heat.26916D8C.Up2Date
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\refint\Air Heater Visualiser.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.pdb
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\Air Heater Visualiser.genruntimeconfig.cache
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\ref\Air Heater Visualiser.dll
