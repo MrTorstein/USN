@@ -1,0 +1,3 @@
+Display control parameters in real time
+Update Thingspeak if control parameters have been changed on controller
+Display historical data and current temperature
