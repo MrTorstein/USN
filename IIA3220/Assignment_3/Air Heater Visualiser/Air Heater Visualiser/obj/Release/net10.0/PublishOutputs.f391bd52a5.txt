@@ -1,0 +1,42 @@
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Air Heater Visualiser.exe
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Cosmos.CRTCompat.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\msvcp140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\vcruntime140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\vcruntime140_1.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\appsettings.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Air Heater Visualiser.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Air Heater Visualiser.deps.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Air Heater Visualiser.runtimeconfig.json
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Air Heater Visualiser.pdb
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Azure.Core.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Azure.Identity.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Bcl.HashCode.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Identity.Client.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.ClientModel.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Memory.Data.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Security.Permissions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\System.Windows.Extensions.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\msvcp140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tor-e\Documents\Skole\USN\IIA3220\Assignment_3\Air Heater Visualiser\Air Heater Visualiser\obj\Release\net10.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
