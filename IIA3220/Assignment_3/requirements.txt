@@ -1,0 +1,9 @@
+V - Perform frequency response and Stability Analysis on system and tune a PID using ZN in python.
+V - Control an airheater simulator, retriving data from it and publishing parameters using Modbus TCP
+V - Create GUI for the controller and ability to have multiple controllers logging at once.
+X - Run this setup on the raspberry Pi if possible
+V - Log to Azure Cosmos DB
+V - Make sure SQL injections are thought of.
+V - All GUI's should be user friendly for Hans Petter
+V - Create an ASP.NET Core Web Application for Monitoring Data
+V - Microsoft Azure. When your system is developed and tested, deploy your system to Microsoft Azure
