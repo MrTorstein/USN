@@ -1,0 +1,21 @@
+1)
+Write down the complete simulation model
+
+
+
+2)
+Implement the simulation in Simulink
+	a)
+	Steps in pump output must be small. Less than 300 l/min^2
+	
+	b)
+	Use u_c= 70 and q_back = 0 as well as table 1
+	
+	c)
+	Plot q_pump, P_bit, q_o and u_c and other interesting parameters
+
+
+
+
+3)
+Compare the simulation with fig3 in task and discuss findings
