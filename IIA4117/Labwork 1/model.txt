@@ -1,0 +1,47 @@
+dP_p = beta_d / (A_d * L) * (q_pump - q_bit)
+	beta_d		= 3 * 10^8 N/m^2	# Bulk modulus at drill string
+	A_d		= 0.0067 m^2		# Area of drill string cross section
+	L		= 1600 m		# Depth of well
+	q_pump		= (1500) l/min		# Volum flux of drill mud through mud pump
+	q_bit		=			# Volum flux of drill mud through drill bit
+	P_p		= 			# Mud pump downstream pressure
+
+dq_bit = MAX( 0, A_d/(rho_l * L) * (P_p + rho_l * g * L - DeltaP_f^d - P_bit) )
+	rho_l		= 1150 kg/m^3		# Density of drill mud
+	g		= 9.81 m/s^2		# Gravitational acceleration
+	DeltaP_f^d	= 			# Pressure loss in drill string by friction
+	P_bit		= 			# Pressure at bottom hole of annulus
+
+dP_c = beta_a / (A_a * L) * (q_bit + q_res + q_back - q_choke)
+	P_c		=			# Well head pressure at annulus
+	beta_a		= 2.4 * 10^8 N/m^2	# Bulk modulus at annulus
+	A_a		= 0.278 m^2		# Area of annulus cross section
+	q_res		= 			# Volum flux of reservoir fluid
+	q_back		= 0			# Volum flux of backpressure pump
+	q_choke		=			# Volum flux of choke valve
+
+P_bit = P_c + rho_mix * g * L + DeltaP_f^a
+	rho_mix		= Calculated		# Density of fluid in annulus
+	DeltaP_f^a	= 			# Pressure loss from friction in annulus
+
+rho_mix = rho_w * W_c + (1 - W_c) * rho_l
+	rho_w		= 1000 kg/m^3		# Water density
+	W_c		= 0.1			# Water cut/ratio in reservoir fluid
+
+q_res = MAX( 0, P_i * (P_res - P_bit) )
+	P_i		= 1.6667 * 10^-9 m^5/Ns	# Productivity index of well
+	P_res		= 250 * 10^5 N/m^2	# Reservoir pressure
+
+q_choke = 27.3 / (3600 * sqrt(10^5)) * Z_c(u_c) * sqrt(MAX( 0, P_c - P_0 ) / rho_mix)
+	Z_c(u_c)	= MAX( 0, 0.111 * u_c - 0.556, 0.5 * u_c - 20 )
+	u_c		= (70) %		# Choke Valve opening
+	P_0		= 4 * 10^5 N/m^2	# Pressure downstream from choke valve
+
+dL = v_pen
+	v_pen		= 0 m/s			# Drilling speed
+
+DeltaP_f^x = f_d * L * rho_x * v_x^2 / (2 * D_h^x)
+	f_d		= 0.02			# Friction factor. Could be calculated.
+	rho_x		= {rho_l, rho_mix}	# Density of fluid in pipe x
+	v_x		= {q_pump, q_choke}/A_x	# Velocity of fluid in pipe x
+	D_h^x		= {0.0925, 0.211} m	# Hydraulic diameter of pipe x
