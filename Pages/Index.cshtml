@@ -1,0 +1,94 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Front Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Air Heater Temperature Visualiser</h1>
+</div>
+<div class="chart-container">
+    <canvas id="tempChart"></canvas>
+    <div class="sensor-selector">
+        <label for="sensorSelect"><strong>Select Sensor:</strong></label>
+        <select id="sensorSelect">
+            <option value="">All Sensors</option>
+            @foreach (var sensor in Model.Sensors)
+            {
+                <option value="@sensor">@sensor</option>
+            }
+        </select>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    let chart = null;
+
+    async function loadChartData() {
+        const sensor = document.getElementById("sensorSelect").value;
+        const response = await fetch(`?handler=ChartData&sensor=${encodeURIComponent(sensor)}`);
+        const json = await response.json();
+        updateChart(json.labels, json.temperatures);
+    }
+
+    function updateChart(labels, tempData) {
+        const ctx = document.getElementById('tempChart').getContext('2d');
+
+        if (chart) chart.destroy();
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Temperature',
+                        data: tempData,
+                        borderWidth: 2,
+                        fill: false
+                    }]
+                },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    title: { display: true, text: 'Temperature (°C)' }
+                },
+                x: {
+                    title: { display: true, text: 'Time' }
+                }
+            }
+        }
+    });
+    }
+
+    setInterval(loadChartData, 60000);
+    document.getElementById("sensorSelect").addEventListener("change", loadChartData);
+
+    loadChartData();
+</script>
+
+<style>
+    .chart-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #tempChart {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+    }
+
+    
+    .sensor-selector {
+        flex: 0 0 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+</style>
