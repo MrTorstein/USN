@@ -1,0 +1,57 @@
+Starterkit: 1299
+	Arduino Uno
+	TMP36
+	220 ohm motstand
+	1k ohm motstand
+	4.7k ohm motstand
+	10k ohm motstand
+	LEDs
+	Breadboard
+	USB A to B
+1300
+
+Separate:
+	Arduino Uno rev 4 wifi 514
+	TMP36 12
+	220 ohm motstand 32
+	1k ohm motstand 105
+	4.7k ohm motstand 18
+	10k ohm motstand 19
+	LEDs 4
+	Breadboard 100
+	USB A to B 22
+950
+
+Med komponent kit:
+	Arduino Uno rev 4 wifi 514
+	TMP36 12
+	220 ohm motstand 300
+	1k ohm motstand
+	4.7k ohm motstand
+	10k ohm motstand
+	LEDs
+	Breadboard
+	USB A to B 22
+850
+
+
+ALT:
+	Arduino Uno rev 4 wifi x
+	Raspberry pi 4 x
+	TMP36 x
+	NTC 10k x
+	TC74 x
+	resistorer
+		220 x
+		270 x
+		330 x
+		1k x
+		4,7k x
+		10k x
+	capacitor/kondensator x
+	LEDs x
+	DAC MCP4911 x
+	ADC MCP3002 x
+	Breadboard x
+	USB A to B x
+	
